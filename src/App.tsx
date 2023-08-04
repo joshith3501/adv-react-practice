@@ -1,10 +1,10 @@
 import './App.css'
-import UserAuth from './components/user-auth/UserAuth';
+import TicTacToe from './components/TicTacToe/TicTacToe';
 
 function App() {
   return (
     <>
-      <UserAuth />
+      <TicTacToe />
     </>
   ); 
 } 

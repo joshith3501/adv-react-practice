@@ -1,0 +1,55 @@
+
+
+.form-container {
+  width:30vw;
+  height:40vh;
+  background-color:rgba(0,0,0,0.5);
+  padding:1rem;
+  border-radius: 1rem;
+  display:grid;
+  place-items: center;
+}
+
+.form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form > * {
+  margin:0.5rem 0;
+  
+}
+
+label {
+  display:block;
+  text-align: left;
+}
+
+input {
+
+  width:15rem;
+  margin-top:0.3rem;
+  padding:0.5rem;
+}
+
+.users-container {
+  margin:1rem;
+}
+
+.user-container {
+  display:flex;
+  flex-direction:column;
+  margin:1rem 0;
+}
+
+strong, small {
+  text-align:left;
+}
+
+
+strong {
+  margin-bottom:0.5rem;
+  font-size:1.5em;
+}
