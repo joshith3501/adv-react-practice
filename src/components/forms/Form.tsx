@@ -15,7 +15,6 @@ const Form = () => {
     }
   ]
 
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [users, setUsers] = useState(data);
@@ -65,7 +64,6 @@ const Form = () => {
       
       {users.map(({ id, username, email})=> {
       return (
-
         <div className='user-container' key={id}>
             <strong>{username}</strong>
             <small>{email}</small>
