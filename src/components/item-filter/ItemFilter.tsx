@@ -14,7 +14,7 @@ const ItemFilter = () => {
     <>
       <header>
         <h1>Our Menu</h1>
-        <article>
+        <article className="filter-options">
           <button
             className="category-all"
             onClick={() => {

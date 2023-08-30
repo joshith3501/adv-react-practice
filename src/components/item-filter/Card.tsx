@@ -11,11 +11,13 @@ const Card = ({id, title, category, price, img, desc}: Props) => {
   return (
     <article className="card-container">
       <img src={img} alt={title} />
-      <div>
-        <strong>{title}</strong>
-        <small>{price}</small>
+      <div className="item-description">
+        <div className="title-and-price">
+          <h2>{title}</h2>
+          <small>{price}</small>
+        </div>
+        <p>{desc}</p>
       </div>
-      <p>{desc}</p>
     </article>
   )
 }
