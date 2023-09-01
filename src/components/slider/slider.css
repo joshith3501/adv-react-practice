@@ -1,0 +1,81 @@
+.elements-container {
+
+  width: clamp(15rem, 80vw, 51rem);
+  height: 30rem;
+  margin-inline:  auto;
+  margin-block: 5rem;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 100vw;
+}
+
+.item-box-1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform:translateX(-100%);
+  width: 100%;
+  height: 100%;
+}
+.item-box-2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform:translateX(0);
+  width: 100%;
+  height: 100%;
+}
+.item-box-3 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform:translateX(100%);
+  width: 100%;
+  height: 100%;
+}
+.item-box-4 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform:translateX(200%);
+  width: 100%;
+  height: 100%;
+}
+
+.person-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.person-details > * + * {
+  margin-bottom: 1rem;
+}
+
+.person-details > span {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.quote-symbol {
+  font-size: 8em;
+}

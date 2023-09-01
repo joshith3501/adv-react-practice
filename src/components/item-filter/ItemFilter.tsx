@@ -4,7 +4,8 @@ import { useState } from "react";
 import './itemfilter.css';
 
 const ItemFilter = () => {
-  const [items, setItems] = useState(ItemData);
+  // const [items, setItems] = useState(ItemData);
+  const items = [...ItemData];
   const [category, setCategory] = useState("all");
   const handleClick = (cat: string) => {
     setCategory(cat);
